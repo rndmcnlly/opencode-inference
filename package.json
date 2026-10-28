@@ -1,0 +1,19 @@
+{
+  "name": "opencode-inference",
+  "version": "0.1.0",
+  "description": "An OpenCode V2 plugin giving agents probabilistic decisions and one-shot generation as Code Mode tools, with live model discovery and explicit privacy boundaries.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rndmcnlly/opencode-inference.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": "./index.ts",
+  "scripts": {
+    "test": "bun test tests"
+  },
+  "dependencies": {
+    "tinfoil": "1.2.1"
+  }
+}
